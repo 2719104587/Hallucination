@@ -7,7 +7,7 @@ Code for Hallucination
 ### Setup/Installation
 1. Clone the package
 ```
-git clone https://github.com/2719104587/Hallcination.git
+git clone https://github.com/2719104587/Hallucination.git
 ```
 
 2. Download the trfold model weights.
