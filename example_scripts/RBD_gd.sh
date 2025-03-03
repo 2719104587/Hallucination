@@ -1,0 +1,17 @@
+python hallucination.py \
+    --length "120-150" \
+    --motif-locs "A364-389,A431-437" \
+    --motif-cluster "A,A" \
+    --motif-template "T,T" \
+    --code "(A)" \
+    --motif-dir "./output/RBD_gd_test/motif_dir" \
+    --prefix "6xr8_A" \
+    --trials 3 \
+    --init-trial 1 \
+    --config-file ./example_configs/RBD_gd.yaml \
+    --functional-sites "A364-389,A431-437" \
+    --output-dir ./output/RBD_gd_test/output \
+    --predict-model "trfold" \
+    --init-mode "gd" \
+    --ngpu 1 \
+    --batchsize 3 \

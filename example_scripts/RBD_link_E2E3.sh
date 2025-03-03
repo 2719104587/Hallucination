@@ -1,0 +1,24 @@
+python hallucination.py \
+    --length "169" \
+    --motif-locs "A364-389,C814-823,A1139-1162" \
+    --motif-template "T,F,F" \
+    --motif-truth "1,2,1" \
+    --special-motif-index "1" \
+    --special-motif-extra-seqs "LPDPSKPS,NKVTLAD" \
+    --paste-locs "37-63,152-162,0-24" \
+    --code "(A)" \
+    --motif-dir "./output/RBD_link_E2E3/motif_dir" \
+    --prefix "6xr8_A,8d47" \
+    --trials 3 \
+    --init-trial 1 \
+    --config-file "./example_configs/RBD_link_E2E3.yaml" \
+    --functional-sites "A364-389,C806-830,A1139-1162" \
+    --output-dir "./output/RBD_link_E2E3/output" \
+    --predict-model "trfold" \
+    --mutate-idx "24-30,138-144" \
+    --initialization "external_both" \
+    --init-sequence "./example_files/2.fasta" \
+    --init-mode "mcmc" \
+    --ngpu 1 \
+    --batchsize 3 \
+    

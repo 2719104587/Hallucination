@@ -1,0 +1,21 @@
+
+mcmc_steps: 1000
+
+trfold:
+  bf16: False
+
+loss:
+  w_cce: 0.5
+  w_entropy: 0.1
+  w_fape: 1.0
+  w_nc: 1.0
+  w_plddt: 1.0
+  w_ptm: 1.0
+  w_pae: 0.1
+  w_rmsd: 0.5
+  w_rep: 0.0
+  w_atr: 0.0
+  w_rog: 10.0
+  w_surfnp: 1.0
+  w_motif_surf: 1.0
+  w_symmetry: 0.0
